@@ -16,11 +16,11 @@ const Timeline = () => {
     Hardware: [
       {
         date: "12th February",
-        title: "Registration opening on unstop",
+        title: "Registration opening and PPT submission on unstop",
       },
       {
         date: "8th March - 12th March",
-        title: "Registration closing on unstop",
+        title: "Registration and PPT submission closing on unstop",
       },
       {
         date: "12th March - 20th March",
@@ -67,11 +67,11 @@ const Timeline = () => {
     Software: [
       {
         date: "12th February",
-        title: "Registration opening on unstop",
+        title: "Registration opening and PPT submission on unstop",
       },
       {
         date: "8th March - 12th March",
-        title: "Registration closing on unstop",
+        title: "Registration and PPT submission closing on unstop",
       },
       {
         date: "12th March - 20th March",

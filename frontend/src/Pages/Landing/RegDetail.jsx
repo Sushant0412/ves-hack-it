@@ -45,7 +45,7 @@ const RegistrationBanner = () => {
                   <p className="text-green-400 font-medium text-xl">
                     Software Track
                   </p>
-                  <p className="text-slate-300 text-xs">Free Entry</p>
+                  <p className="text-slate-300 text-xs">₹600 per team</p>
                 </div>
               </div>
 
@@ -58,7 +58,7 @@ const RegistrationBanner = () => {
                   <p className="text-orange-400 font-medium text-xl">
                     Hardware Team
                   </p>
-                  <p className="text-slate-300 text-xs">₹400 per team</p>
+                  <p className="text-slate-300 text-xs">₹600 per team</p>
                 </div>
               </div>
 

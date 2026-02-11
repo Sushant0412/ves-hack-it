@@ -18,7 +18,7 @@ const faqData = [
       {
         question: 'What is the cost?',
         answer:
-          'The entry fee for the Hardware Track is ₹400 per team or ₹100 for individuals. Fees are non-refundable. The Software Track participation is free.',
+          'The entry fee for the Software and Hardware Track is ₹600 per team or ₹150 for individuals. Fees are non-refundable. The Software Track participation is free.',
       },
       // {
       //   question: 'Where can I find the schedule?',
@@ -85,7 +85,7 @@ const faqData = [
       },
       {
         question: "How will tracks and prizes work?",
-        answer: "Participants can choose one track for submission. Each track, Hardware and Software, will have two winners. The 1st place winners of both tracks will receive ₹50,000 each, and the 2nd place winners will receive ₹25,000 each, adding up to the ₹1,50,000 prize pool. Check the Prizes section for more details."
+        answer: "Participants can choose one track for submission. Each track, Hardware and Software, will have one winner per problem statement. The 1st place winners of both tracks will receive ₹50,000 each, and the 2nd place winners will receive ₹25,000 each, adding up to the ₹1,50,000 prize pool. Check the Prizes section for more details."
       },
       {
         question: 'Do I need a team?',

@@ -12,66 +12,99 @@ const Timeline = () => {
   const [selectedCategory, setSelectedCategory] = useState("Hardware");
 
   const timelineData = {
+
     Hardware: [
       {
-        date: "4th Jan - 20th Jan",
-        title: "Registration and workshop selection",
+        date: "12th February",
+        title: "Registration opening on unstop",
       },
       {
-        date: "15th Jan",
-        title: "Problem statement release",
+        date: "8th March - 12th March",
+        title: "Registration closing on unstop",
       },
       {
-        date: "20th Jan - 22nd Jan",
-        title:
-          "Hardware Training and Mentoring Workshops.( ESP32/STM/RASPBERRY PI/FPGA)",
+        date: "12th March - 20th March",
+        title: "Shortlisted Teams Announcement",
       },
       {
-        date: "23rd Jan - 30th Jan",
-        title: "Domain selection and component list sharing",
+        date: "28th March - 29th March",
+        title: "28-29th March: Final Hackathon Round.",
       },
-      {
-        date: "31st Jan",
-        title: "Hardware Track Presentation Round.",
-      },
-      {
-        date: "2nd Feb",
-        title: "Shortlisted teams announcement",
-      },
-      {
-        date: "10th Feb- 14th Feb",
-        title: "Download ID card for entry",
-      },
-      {
-        date: "15th - 16th Feb",
-        title: "𝟭𝟱-𝟭𝟲𝘁𝗵 𝗙𝗲𝗯: Final Hackathon Round.",
-      },
+      // {
+      //   date: "4th Jan - 20th Jan",
+      //   title: "Registration and workshop selection",
+      // }, 
+      // {
+      //   date: "15th Jan",
+      //   title: "Problem statement release",
+      // },
+      // {
+      //   date: "20th Jan - 22nd Jan",
+      //   title:
+      //     "Hardware Training and Mentoring Workshops.( ESP32/STM/RASPBERRY PI/FPGA)",
+      // },
+      // {
+      //   date: "23rd Jan - 30th Jan",
+      //   title: "Domain selection and component list sharing",
+      // },
+      // {
+      //   date: "31st Jan",
+      //   title: "Hardware Track Presentation Round.",
+      // },
+      // {
+      //   date: "2nd Feb",
+      //   title: "Shortlisted teams announcement",
+      // },
+      // {
+      //   date: "10th Feb- 14th Feb",
+      //   title: "Download ID card for entry",
+      // },
+      // {
+      //   date: "15th - 16th Feb",
+      //   title: "𝟭𝟱-𝟭𝟲𝘁𝗵 𝗙𝗲𝗯: Final Hackathon Round.",
+      // },
     ],
     Software: [
       {
-        date: "4th Jan - 20th Jan",
-        title: "Registration and workshop selection",
+        date: "12th February",
+        title: "Registration opening on unstop",
       },
       {
-        date: "15th Jan",
-        title: "Release of problem statement",
+        date: "8th March - 12th March",
+        title: "Registration closing on unstop",
       },
       {
-        date: "21st Jan",
-        title: "Software Track Presentation Submission.",
+        date: "12th March - 20th March",
+        title: "Shortlisted Teams Announcement",
       },
       {
-        date: "31st Jan",
-        title: "PPT screening at VESIT, Chembur",
+        date: "28th March - 29th March",
+        title: "28-29th March: Final Hackathon Round.",
       },
-      {
-        date: "2nd Feb",
-        title: "List of shortlisted teams for main competition",
-      },
-      {
-        date: "15th - 16th Feb",
-        title: "𝟭𝟱-𝟭𝟲𝘁𝗵 𝗙𝗲𝗯: Final Hackathon Round.",
-      },
+      // {
+      //   date: "4th Jan - 20th Jan",
+      //   title: "Registration and workshop selection",
+      // },
+      // {
+      //   date: "15th Jan",
+      //   title: "Release of problem statement",
+      // },
+      // {
+      //   date: "21st Jan",
+      //   title: "Software Track Presentation Submission.",
+      // },
+      // {
+      //   date: "31st Jan",
+      //   title: "PPT screening at VESIT, Chembur",
+      // },
+      // {
+      //   date: "2nd Feb",
+      //   title: "List of shortlisted teams for main competition",
+      // },
+      // {
+      //   date: "15th - 16th Feb",
+      //   title: "𝟭𝟱-𝟭𝟲𝘁𝗵 𝗙𝗲𝗯: Final Hackathon Round.",
+      // },
     ],
   };
 

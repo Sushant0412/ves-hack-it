@@ -105,7 +105,7 @@ function App() {
       <RegistrationBanner />
       <Tracks />
       <Timeline />
-      <RoundOneResults/>
+      {/* <RoundOneResults/> */}
       <Sponsors />
       <Prizes />
       <Teams />

@@ -64,7 +64,7 @@ const HoverRectangle = () => {
 
   useEffect(() => {
     const calculateTimeLeft = () => {
-      const hackathonDate = new Date("2025-02-22T00:00:00");
+      const hackathonDate = new Date("2026-03-28T00:00:00");
       const now = new Date();
       const difference = hackathonDate - now;
 

@@ -131,7 +131,8 @@ const Tracks = () => {
               Software
             </h3>
             <ol className="ml-5 text-md lg:text-lg text-sky-100 font-medium list-decimal">
-              <li className="hover:glow-hover">
+              Coming Soon...
+              {/* <li className="hover:glow-hover">
                 HW-01 : Smart Fall Detection System for the Elderly.
               </li>
               <li className="hover:glow-hover">
@@ -171,7 +172,7 @@ const Tracks = () => {
               </li>
               <li className="hover:glow-hover">
                 HW-12 : Robotic Inspection System for Hazardous Environments.
-              </li>
+              </li> */}
             </ol>
           </div>
         </div>
@@ -188,7 +189,8 @@ const Tracks = () => {
               Hardware
             </h3>
             <ol className="ml-5 text-md lg:text-lg text-orange-100 font-medium list-decimal">
-              <li className="hover:glow-hover">
+              Coming Soon...
+              {/* <li className="hover:glow-hover">
                 SW-01. Game for Mentally Challenged.
               </li>
               <li className="hover:glow-hover">SW-02. Digital Literacy App.</li>
@@ -201,7 +203,7 @@ const Tracks = () => {
               <li className="hover:glow-hover">
                 SW-05. Food Waste Reduction Platform.
               </li>
-              <li className="hover:glow-hover">SW-06. Smart Parking App.</li>
+              <li className="hover:glow-hover">SW-06. Smart Parking App.</li> */}
             </ol>
           </div>
         </div>

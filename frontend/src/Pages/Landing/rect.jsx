@@ -63,7 +63,7 @@ const HoverRectangle = () => {
 
   useEffect(() => {
     const calculateTimeLeft = () => {
-      const hackathonDate = new Date("2025-02-15T09:00:00");
+      const hackathonDate = new Date("2026-03-28T09:00:00");
       const now = new Date();
       const difference = hackathonDate - now;
 
@@ -122,7 +122,7 @@ const HoverRectangle = () => {
           </div>
 
           <p className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-green-200 mb-6">
-            15-16th Feb, 2025
+            29-29th March, 2026
           </p>
 
           {/* Countdown Timer */}

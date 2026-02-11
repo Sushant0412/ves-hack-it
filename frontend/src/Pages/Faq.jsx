@@ -13,18 +13,18 @@ const faqData = [
       {
         question: 'When and where is VES-HACK-IT?',
         answer:
-          'VES-HACK-IT will be held on February 15-16, 2025, at VESIT, Chembur, Mumbai. Mark your calendars for an unforgettable experience!',
+          'VES-HACK-IT will be held on March 28-29, 2026, at VESIT, Chembur, Mumbai. Mark your calendars for an unforgettable experience!',
       },
       {
         question: 'What is the cost?',
         answer:
           'The entry fee for the Hardware Track is ₹400 per team or ₹100 for individuals. Fees are non-refundable. The Software Track participation is free.',
       },
-      {
-        question: 'Where can I find the schedule?',
-        answer:
-          'The detailed schedule has been announced in timeline section! Key dates include Hardware Training and Mentoring Workshops on January 20-22, Presentation Rounds on January 21 and 31, and the final Hackathon Round on February 15-16.',
-      },
+      // {
+      //   question: 'Where can I find the schedule?',
+      //   answer:
+      //     'The detailed schedule has been announced in timeline section! Key dates include Hardware Training and Mentoring Workshops on February 20-22, Presentation Rounds on February 21 and 31, and the final Hackathon Round on March 28-29.',
+      // },
       {
         question: 'I have never participated in a hackathon before!',
         answer:
@@ -71,7 +71,7 @@ const faqData = [
       },
       {
         question: "When is registration open?",
-        answer: "Registration for VES-HACK-IT is live now and closes on January 20, 2025. Don’t miss out on this thrilling event!"
+        answer: "Registration for VES-HACK-IT is live now and closes on March 12, 2026. Don’t miss out on this thrilling event!"
       },
     ],
   },

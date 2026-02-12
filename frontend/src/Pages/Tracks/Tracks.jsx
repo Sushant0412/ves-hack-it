@@ -68,7 +68,7 @@ const Tracks = () => {
                 <h2 className="text-5xl font-bold text-center text-sky-50  mb-7">
                   Software
                 </h2>
-                <p className="text-3xl text-sky-100 font-medium">
+                {/* <p className="text-3xl text-sky-100 font-medium">
                   Build innovative, sustainable software solutions.
                 </p>
                 <ol className="ml-5 text-2xl text-sky-100 font-medium list-decimal text-left">
@@ -77,7 +77,10 @@ const Tracks = () => {
                   <li>Renewable energy</li>
                   <li>Climate change</li>
                   <li>Food management</li>
-                </ol>
+                </ol> */}
+                <p className="text-3xl text-sky-100 font-medium">
+                  Coming Soon...
+                </p>
               </div>
             </div>
             <div className="raysBg bg-orange-800 backdrop-blur-sm rounded-lg shadow-xl shadow-gray-900 min-h-[250px] sm:min-h-[300px] lg:min-h-[350px] border-gray-700 border overflow-hidden">
@@ -93,7 +96,7 @@ const Tracks = () => {
                 <h2 className="text-5xl font-bold text-center text-orange-50 mb-7">
                   Hardware
                 </h2>
-                <p className="text-3xl text-orange-100 font-medium">
+                {/* <p className="text-3xl text-orange-100 font-medium">
                   Create impactful, energy-efficient prototypes.
                 </p>
                 <ol className="ml-5 text-2xl text-orange-100 font-medium list-decimal text-left">
@@ -102,7 +105,10 @@ const Tracks = () => {
                   <li>Industry 4.0 and IoT</li>
                   <li>Disaster Management & Renewable Energy</li>
                   <li>Robotics & Engineering</li>
-                </ol>
+                </ol> */}
+                <p className="text-3xl text-orange-100 font-medium">
+                  Coming Soon...
+                </p>
               </div>
             </div>
           </div>

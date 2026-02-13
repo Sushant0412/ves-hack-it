@@ -122,7 +122,7 @@ const HoverRectangle = () => {
           </div>
 
           <p className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-green-200 mb-6">
-            29-29th March, 2026
+            28-29th March, 2026
           </p>
 
           {/* Countdown Timer */}
@@ -154,7 +154,7 @@ const HoverRectangle = () => {
       <button
         onClick={() =>
           window.open(
-            "https://unstop.com/p/ves-hack-it-vivekanand-education-societys-institute-of-technology-vesit-mumbai-1336926",
+            "https://unstop.com/hackathons/hack4innovation-vivekanand-education-societys-institute-of-technology-vesit-mumbai-1641564",
             "_blank"
           )
         }

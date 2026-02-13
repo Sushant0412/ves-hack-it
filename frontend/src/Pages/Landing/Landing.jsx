@@ -41,7 +41,7 @@ const Coming = () => {
       <button
         onClick={() =>
           window.open(
-            "https://unstop.com/p/ves-hack-it-vivekanand-education-societys-institute-of-technology-vesit-mumbai-1336926",
+            "https://unstop.com/hackathons/hack4innovation-vivekanand-education-societys-institute-of-technology-vesit-mumbai-1641564",
             "_blank"
           )
         }

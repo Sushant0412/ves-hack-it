@@ -32,7 +32,7 @@ const CommitteeSection = () => {
       members: [
         "Mrs. Abha Tewari, VESIT", "Mr. Amit Singh, VESIT", "Mr. Mrugendra Vasmatkar, VESIT",
         "Mrs. Monali Chaudhari, VESIT", "Mr. Abhishek Chaudhary, VESIT", "Mr. Abhijet Shete, VESIT",
-        "Dr. Rohini Temkar, VESIT", "Mrs. Indira B, VESIT", "Mr. Kader BT Shaikh, VESIT",
+        "Dr. Rohini Temkar, VESIT", "Mrs. Indira B, VESIT", "Mr. Kader B T Shaikh, VESIT",
         "Dr. Keya Doshi, VESIT", "Mrs. Sukanya Roychowdhury, VESIT", "Rtn Arun Ganapathy, Rotary Club"
       ]
     },
@@ -70,7 +70,7 @@ const CommitteeSection = () => {
     },
     coChairperson: {
       title: "CO-CHAIRPERSON",
-      members: ["Dr.(Mrs.) M.VijayLakshmi, Vice-Principal, VESIT"]
+      members: ["Dr.(Mrs.) M.Vijayalakshmi, Vice-Principal, VESIT"]
     },
     executive: {
       title: "EXECUTIVE COMMITTEE",

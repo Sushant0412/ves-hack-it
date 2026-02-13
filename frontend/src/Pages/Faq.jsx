@@ -85,7 +85,7 @@ const faqData = [
       },
       {
         question: "How will tracks and prizes work?",
-        answer: "Participants can choose one track for submission. Each track, Hardware and Software, will have three winners per problem statement. In each track, the 1st place winners will receive ₹40,000, 2nd place winners will receive ₹20,000, and 3rd place winners will receive ₹15,000, totaling the ₹1,50,000 prize pool. Check the Prizes section for more details."
+        answer: "Participants can choose one track for submission. There are 6 winners in total — 3 from the Software Track and 3 from the Hardware Track — each receiving ₹25,000, adding up to the ₹1,50,000 prize pool. Check the Prizes section for more details."
       },
       {
         question: 'Do I need a team?',

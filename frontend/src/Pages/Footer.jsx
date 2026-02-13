@@ -11,10 +11,10 @@ import {
 
 const Footer = () => {
   const contactInfo = [
-    { name: "Gaurang Mapuskar", phone: "+91 99697 80696" },
-    { name: "Shashwat Tripathi", phone: "+91 97023 00238" },
-    { name: "Shreyas Kale", phone: "+91 93728 52266" },
-    { name: "Gaurang Rane", phone: "+91 98676 15388" },
+    { name: "Shriya Jain", phone: "+91 9326088066" },
+    { name: "Nikunj Pal", phone: "+91 9769786494" },
+    { name: "Kaustubh Natalkar", phone: "+91 9021451921" },
+    { name: "Rakshit Sharma", phone: "+91 8450914156" },
   ];
 
   const quickLinks = [

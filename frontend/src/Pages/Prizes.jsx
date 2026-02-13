@@ -3,42 +3,42 @@ import React from "react";
 
 const softwarePrizeData = [
   {
-    imgSrc: "https://img.icons8.com/emoji/96/000000/1st-place-medal-emoji.png",
-    altText: "1st Place Medal",
+    imgSrc: "https://img.icons8.com/emoji/96/000000/trophy-emoji.png",
+    altText: "Winner Trophy",
     rank: "gold",
-    details: [{ text: "Rs.40,000" }],
+    details: [{ text: "Rs.25,000" }],
   },
   {
-    imgSrc: "https://img.icons8.com/emoji/96/000000/2nd-place-medal-emoji.png",
-    altText: "2nd Place Medal",
-    rank: "silver",
-    details: [{ text: "Rs.20,000" }],
+    imgSrc: "https://img.icons8.com/emoji/96/000000/trophy-emoji.png",
+    altText: "Winner Trophy",
+    rank: "gold",
+    details: [{ text: "Rs.25,000" }],
   },
   {
-    imgSrc: "https://img.icons8.com/emoji/96/000000/3rd-place-medal-emoji.png",
-    altText: "3rd Place Medal",
-    rank: "bronze",
-    details: [{ text: "Rs.15,000" }],
+    imgSrc: "https://img.icons8.com/emoji/96/000000/trophy-emoji.png",
+    altText: "Winner Trophy",
+    rank: "gold",
+    details: [{ text: "Rs.25,000" }],
   },
 ];
 const hardwarePrizeData = [
   {
-    imgSrc: "https://img.icons8.com/emoji/96/000000/1st-place-medal-emoji.png",
-    altText: "1st Place Medal",
+    imgSrc: "https://img.icons8.com/emoji/96/000000/trophy-emoji.png",
+    altText: "Winner Trophy",
     rank: "gold",
-    details: [{ text: "Rs.40,000" }],
+    details: [{ text: "Rs.25,000" }],
   },
   {
-    imgSrc: "https://img.icons8.com/emoji/96/000000/2nd-place-medal-emoji.png",
-    altText: "2nd Place Medal",
-    rank: "silver",
-    details: [{ text: "Rs.20,000" }],
+    imgSrc: "https://img.icons8.com/emoji/96/000000/trophy-emoji.png",
+    altText: "Winner Trophy",
+    rank: "gold",
+    details: [{ text: "Rs.25,000" }],
   },
   {
-    imgSrc: "https://img.icons8.com/emoji/96/000000/3rd-place-medal-emoji.png",
-    altText: "3rd Place Medal",
-    rank: "bronze",
-    details: [{ text: "Rs.15,000" }],
+    imgSrc: "https://img.icons8.com/emoji/96/000000/trophy-emoji.png",
+    altText: "Winner Trophy",
+    rank: "gold",
+    details: [{ text: "Rs.25,000" }],
   },
 ];
 
@@ -112,11 +112,11 @@ const PrizeCard = ({ imgSrc, altText, details, additionalDetails, rank }) => {
           {details.map((detail, index) => (
             <p
               className={`font-medium text-4xl ${
-                rank === "gold" ? "text-yellow-500" : rank === "silver" ? "text-gray-400" : "text-orange-600"
+                rank === "gold" ? "text-white" : rank === "silver" ? "text-gray-400" : "text-white"
               }`}
               style={{
                 textShadow:
-                  rank === "gold" ? "0 2px 12px gold" : rank === "silver" ? "0 2px 8px grey" : "0 2px 8px #cd7f32",
+                  rank === "gold" ? "0 2px 12px" : rank === "silver" ? "0 2px 8px grey" : "0 2px 8px ",
               }}
               key={index}
             >
@@ -159,7 +159,7 @@ const Prizes = () => {
       <p className="text-3xl text-white font-extrabold text-center mt-4 mb-8">
         Software Track
       </p>
-      <div className="flex flex-wrap gap-x-14  justify-center min-w-full flex-1 flex-grow  px-0 max-w-6xl ">
+      <div className="flex flex-wrap gap-x-14 justify-center min-w-full flex-1 flex-grow px-0 max-w-6xl">
         {softwarePrizeData.map((prize, index) => (
           <PrizeCard
             key={index}
@@ -167,7 +167,6 @@ const Prizes = () => {
             altText={prize.altText}
             details={prize.details}
             rank={prize.rank}
-            additionalDetails={prize.additionalDetails}
           />
         ))}
       </div>
@@ -182,7 +181,6 @@ const Prizes = () => {
             altText={prize.altText}
             details={prize.details}
             rank={prize.rank}
-            additionalDetails={prize.additionalDetails}
           />
         ))}
       </div>

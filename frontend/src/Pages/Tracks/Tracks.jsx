@@ -68,19 +68,14 @@ const Tracks = () => {
                 <h2 className="text-5xl font-bold text-center text-sky-50  mb-7">
                   Software
                 </h2>
-                {/* <p className="text-3xl text-sky-100 font-medium">
+                <p className="text-3xl text-sky-100 font-medium">
                   Build innovative, sustainable software solutions.
                 </p>
-                <ol className="ml-5 text-2xl text-sky-100 font-medium list-decimal text-left">
-                  <li>Mental health</li>
-                  <li>Digital literacy</li>
-                  <li>Renewable energy</li>
-                  <li>Climate change</li>
-                  <li>Food management</li>
-                </ol> */}
-                <p className="text-3xl text-sky-100 font-medium">
-                  Coming Soon...
-                </p>
+               <ol className="ml-5 text-2xl text-sky-100 font-medium list-decimal text-left mt-4 space-y-3">
+                  <li><strong>AI & Predictive Analytics</strong></li>
+                  <li><strong>Assistive Technology & Computer Vision</strong></li>
+                  <li><strong>Cybersecurity & NLP</strong></li>
+                </ol>
               </div>
             </div>
             <div className="raysBg bg-orange-800 backdrop-blur-sm rounded-lg shadow-xl shadow-gray-900 min-h-[250px] sm:min-h-[300px] lg:min-h-[350px] border-gray-700 border overflow-hidden">
@@ -96,19 +91,15 @@ const Tracks = () => {
                 <h2 className="text-5xl font-bold text-center text-orange-50 mb-7">
                   Hardware
                 </h2>
-                {/* <p className="text-3xl text-orange-100 font-medium">
-                  Create impactful, energy-efficient prototypes.
-                </p>
-                <ol className="ml-5 text-2xl text-orange-100 font-medium list-decimal text-left">
-                  <li>Healthcare</li>
-                  <li>Animal husbandry & Agriculture</li>
-                  <li>Industry 4.0 and IoT</li>
-                  <li>Disaster Management & Renewable Energy</li>
-                  <li>Robotics & Engineering</li>
-                </ol> */}
                 <p className="text-3xl text-orange-100 font-medium">
-                  Coming Soon...
+                  Create impactful hardware prototypes for a better world.
                 </p>
+                <ol className="ml-5 text-2xl text-orange-100 font-medium list-decimal text-left mt-4 space-y-3">
+                  <li><strong>Immersive Heritage & IoT</strong></li>
+                  <li><strong>Smart Healthcare & Wearables</strong></li>
+                  <li><strong>Sports Tech & Performance Tracking</strong></li>
+                  <li><strong>EdTech & Interactive Toys</strong></li>
+                </ol>
               </div>
             </div>
           </div>
@@ -136,49 +127,16 @@ const Tracks = () => {
             >
               Software
             </h3>
-            <ol className="ml-5 text-md lg:text-lg text-sky-100 font-medium list-decimal">
-              Coming Soon...
-              {/* <li className="hover:glow-hover">
-                HW-01 : Smart Fall Detection System for the Elderly.
+            <ol className="ml-5 text-md lg:text-lg text-sky-100 font-medium list-none space-y-4">
+              <li className="hover:glow-hover">
+                <strong>SW-01: Public Places / Transport Crowding Predictor:</strong> Develop an AI-based software system that predicts crowd density in public places or transport systems using historical and real-time data.
               </li>
               <li className="hover:glow-hover">
-                HW-02 : Smart Pill Dispenser for Alzheimer’s and Dementia.
-                Patients
+                <strong>SW-02: Real-Time Signboard Reader for Visually Impaired:</strong> Build an AI-powered application that detects, reads, and converts signboard text into speech in real time for visually impaired users.
               </li>
               <li className="hover:glow-hover">
-                HW-03 : Precision Farming System for Enhanced Crop Management.
+                <strong>SW-03: Personal Protection System against Social Media Scams and Digital Fraud:</strong> Design an intelligent cyber-safety application that detects social media scams, “digital arrest” fraud patterns, and suspicious messages using AI/NLP techniques.
               </li>
-              <li className="hover:glow-hover">
-                HW-04 : Automated Animal Species Detection and Monitoring
-                System.
-              </li>
-              <li className="hover:glow-hover">
-                HW-05 : Smart Writing Pen and Pad for Children with Learning
-                Disabilities.
-              </li>
-              <li className="hover:glow-hover">
-                HW-06 : Enhanced Ham Radio System for Improved Communication and
-                Accessibility.
-              </li>
-              <li className="hover:glow-hover">
-                HW-07 : Reduction of Air Quality Index (AQI) Through Efficient
-                Tracking, Monitoring, and Implementation of Solutions.
-              </li>
-              <li className="hover:glow-hover">
-                HW-08 : Electric vehicle battery management device.
-              </li>
-              <li className="hover:glow-hover">
-                HW-09 : Railway track crack detection & monitoring.
-              </li>
-              <li className="hover:glow-hover">
-                HW-10 : Maze solving Micro-mouse.
-              </li>
-              <li className="hover:glow-hover">
-                HW-11 : Coin sorting system for temples.
-              </li>
-              <li className="hover:glow-hover">
-                HW-12 : Robotic Inspection System for Hazardous Environments.
-              </li> */}
             </ol>
           </div>
         </div>
@@ -194,22 +152,19 @@ const Tracks = () => {
             >
               Hardware
             </h3>
-            <ol className="ml-5 text-md lg:text-lg text-orange-100 font-medium list-decimal">
-              Coming Soon...
-              {/* <li className="hover:glow-hover">
-                SW-01. Game for Mentally Challenged.
-              </li>
-              <li className="hover:glow-hover">SW-02. Digital Literacy App.</li>
+            <ol className="ml-5 text-md lg:text-lg text-orange-100 font-medium list-none space-y-4">
               <li className="hover:glow-hover">
-                SW-03. Renewable Energy Crowdfunding Platform.
+                <strong>HW-01: Technology for Cultural Heritage:</strong> Build a hardware-based interactive system that helps preserve and experience cultural heritage through sensing, display, or immersive physical interfaces.
               </li>
               <li className="hover:glow-hover">
-                SW-04. Climate Change Education App.
+                <strong>HW-02: At-Home Healthcare Assistant:</strong> Develop a sensor-based home healthcare device that monitors vital parameters and assists patients with daily health management.
               </li>
               <li className="hover:glow-hover">
-                SW-05. Food Waste Reduction Platform.
+                <strong>HW-03: Technology for Sports:</strong> Design a wearable or embedded hardware system that tracks athlete performance metrics and provides real-time feedback.
               </li>
-              <li className="hover:glow-hover">SW-06. Smart Parking App.</li> */}
+              <li className="hover:glow-hover">
+                <strong>HW-04: Play, Learn, Grow Toys – The Indian Way:</strong> Create an interactive electronic toy using sensors and microcontrollers that teaches concepts through Indian stories, games, or traditions.
+              </li>
             </ol>
           </div>
         </div>

@@ -53,7 +53,7 @@ const Navbar = () => {
           <img src={SecLogo} alt="HABIT.ia Logo" className="rounded-lg" />
         </div>
         <h1 className="md:hidden text-xl flex justify-center items-center p-0 m-0 font-bold tracking-wider text-white league-spartan-font">
-          VES-HACK-IT
+          Hack4Innovation
         </h1>
         {/* Desktop Navigation Items */}
         <div className="flex items-center gap-2 px-4 py-2 shadow-lg relative h-full justify-center">

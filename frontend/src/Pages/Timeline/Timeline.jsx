@@ -14,22 +14,22 @@ const Timeline = () => {
   const timelineData = {
 
     Hardware: [
-      {
-        date: "12th February",
-        title: "Registration opening and PPT submission on unstop",
-      },
-      {
-        date: "8th March - 12th March",
-        title: "Registration and PPT submission closing on unstop",
-      },
-      {
-        date: "12th March - 20th March",
-        title: "Shortlisted Teams Announcement",
-      },
-      {
-        date: "28th March - 29th March",
-        title: "28-29th March: Final Hackathon Round.",
-      },
+       {
+          date: "14th February",
+          title: "Registration Opening and Release of Problem Statements on Unstop",
+        },
+        {
+          date: "5th March",
+          title: "Submission of PPT Deadline",
+        },
+        {
+          date: "20th March",
+          title: "List of Shortlisted Teams for Main Competition",
+        },
+        {
+          date: "28th - 29th March",
+          title: "Final Hackathon Round at VESIT",
+        }
       // {
       //   date: "4th Jan - 20th Jan",
       //   title: "Registration and workshop selection",
@@ -64,23 +64,23 @@ const Timeline = () => {
       //   title: "𝟭𝟱-𝟭𝟲𝘁𝗵 𝗙𝗲𝗯: Final Hackathon Round.",
       // },
     ],
-    Software: [
-      {
-        date: "12th February",
-        title: "Registration opening and PPT submission on unstop",
-      },
-      {
-        date: "8th March - 12th March",
-        title: "Registration and PPT submission closing on unstop",
-      },
-      {
-        date: "12th March - 20th March",
-        title: "Shortlisted Teams Announcement",
-      },
-      {
-        date: "28th March - 29th March",
-        title: "28-29th March: Final Hackathon Round.",
-      },
+    Software: [ 
+        {
+          date: "14th February",
+          title: "Registration Opening and Release of Problem Statements on Unstop",
+        },
+        {
+          date: "5th March",
+          title: "Submission of PPT Deadline",
+        },
+        {
+          date: "20th March",
+          title: "List of Shortlisted Teams for Main Competition",
+        },
+        {
+          date: "28th - 29th March",
+          title: "Final Hackathon Round at VESIT",
+        }
       // {
       //   date: "4th Jan - 20th Jan",
       //   title: "Registration and workshop selection",

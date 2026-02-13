@@ -6,13 +6,19 @@ const softwarePrizeData = [
     imgSrc: "https://img.icons8.com/emoji/96/000000/1st-place-medal-emoji.png",
     altText: "1st Place Medal",
     rank: "gold",
-    details: [{ text: "Rs.50000" }],
+    details: [{ text: "Rs.40,000" }],
   },
   {
     imgSrc: "https://img.icons8.com/emoji/96/000000/2nd-place-medal-emoji.png",
     altText: "2nd Place Medal",
     rank: "silver",
-    details: [{ text: "Rs.25000" }],
+    details: [{ text: "Rs.20,000" }],
+  },
+  {
+    imgSrc: "https://img.icons8.com/emoji/96/000000/3rd-place-medal-emoji.png",
+    altText: "3rd Place Medal",
+    rank: "bronze",
+    details: [{ text: "Rs.15,000" }],
   },
 ];
 const hardwarePrizeData = [
@@ -20,13 +26,19 @@ const hardwarePrizeData = [
     imgSrc: "https://img.icons8.com/emoji/96/000000/1st-place-medal-emoji.png",
     altText: "1st Place Medal",
     rank: "gold",
-    details: [{ text: "Rs.50000" }],
+    details: [{ text: "Rs.40,000" }],
   },
   {
     imgSrc: "https://img.icons8.com/emoji/96/000000/2nd-place-medal-emoji.png",
     altText: "2nd Place Medal",
     rank: "silver",
-    details: [{ text: "Rs.25000" }],
+    details: [{ text: "Rs.20,000" }],
+  },
+  {
+    imgSrc: "https://img.icons8.com/emoji/96/000000/3rd-place-medal-emoji.png",
+    altText: "3rd Place Medal",
+    rank: "bronze",
+    details: [{ text: "Rs.15,000" }],
   },
 ];
 
@@ -100,11 +112,11 @@ const PrizeCard = ({ imgSrc, altText, details, additionalDetails, rank }) => {
           {details.map((detail, index) => (
             <p
               className={`font-medium text-4xl ${
-                rank === "gold" ? "text-yellow-500" : "text-gray-400"
+                rank === "gold" ? "text-yellow-500" : rank === "silver" ? "text-gray-400" : "text-orange-600"
               }`}
               style={{
                 textShadow:
-                  rank === "gold" ? "0 2px 12px gold" : "0 2px 8px grey",
+                  rank === "gold" ? "0 2px 12px gold" : rank === "silver" ? "0 2px 8px grey" : "0 2px 8px #cd7f32",
               }}
               key={index}
             >

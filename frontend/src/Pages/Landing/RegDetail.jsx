@@ -71,7 +71,7 @@ const RegistrationBanner = () => {
                   <p className="text-blue-400 font-medium text-xl">
                     Individual (Hardware)
                   </p>
-                  <p className="text-slate-300 text-xs">₹100 per person</p>
+                  <p className="text-slate-300 text-xs">₹150 per person</p>
                 </div>
               </div>
             </div>

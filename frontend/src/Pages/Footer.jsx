@@ -32,7 +32,7 @@ const Footer = () => {
           {/* About Section */}
           <div className="space-y-4">
             <h3 className="text-lg font-bold bg-gradient-to-r from-orange-400 to-blue-500 bg-clip-text text-transparent">
-              About VesHackIT
+              About Hack4Innovation
             </h3>
             <p className="text-sm text-gray-400">
               A 24-hour hackathon fostering innovation and creativity among
@@ -117,7 +117,7 @@ const Footer = () => {
       <div className="border-t border-gray-800">
         <div className="max-w-7xl mx-auto px-4 py-4">
           <div className="flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
-            <p>© 2026 VesHackIT. All rights reserved.</p>
+            <p>© 2026 Hack4Innovation. All rights reserved.</p>
             {/* <div className="flex space-x-4 mt-2 md:mt-0">
               <a
                 href="#privacy"

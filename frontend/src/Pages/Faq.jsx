@@ -7,13 +7,13 @@ const faqData = [
     category: 'General',
     questions: [
       {
-        question: "What is VES-HACK-IT?",
-        answer: "VES-HACK-IT is an electrifying 30-hour Hackathon organized at VESIT College where innovation meets sustainability! It brings together students to tackle real-world challenges with eco-friendly and energy-efficient solutions. Hosted in association with the Rotary Club of Mumbai, Ghatkopar West, this event is a perfect blend of innovation and impact."
+        question: "What is Hack4Innovation?",
+        answer: "Hack4Innovation is an electrifying 30-hour Hackathon organized at VESIT College where innovation meets sustainability! It brings together students to tackle real-world challenges with eco-friendly and energy-efficient solutions. Hosted in association with the Rotary Club of Mumbai, Ghatkopar West, this event is a perfect blend of innovation and impact."
       },
       {
-        question: 'When and where is VES-HACK-IT?',
+        question: 'When and where is Hack4Innovation?',
         answer:
-          'VES-HACK-IT will be held on March 28-29, 2026, at VESIT, Chembur, Mumbai. Mark your calendars for an unforgettable experience!',
+          'Hack4Innovation will be held on March 28-29, 2026, at VESIT, Chembur, Mumbai. Mark your calendars for an unforgettable experience!',
       },
       {
         question: 'What is the cost?',
@@ -28,7 +28,7 @@ const faqData = [
       {
         question: 'I have never participated in a hackathon before!',
         answer:
-          'No worries! VES-HACK-IT will feature workshops and mentoring sessions to help you get started, especially for the Hardware Track. Everyone is encouraged to participate, learn, and innovate!',
+          'No worries! Hack4Innovation will feature workshops and mentoring sessions to help you get started, especially for the Hardware Track. Everyone is encouraged to participate, learn, and innovate!',
       },
       {
         question: 'Where can I get more details or ask questions?',
@@ -41,8 +41,8 @@ const faqData = [
     category: 'Virtual',
     questions: [
       {
-        question: "Is VES-HACK-IT a virtual event?",
-        answer: "No, the final round of VES-HACK-IT will be held in person at VESIT, Chembur, Mumbai. However, other rounds, such as PPT submissions, will be conducted online to ensure flexibility and wider participation."
+        question: "Is Hack4Innovation a virtual event?",
+        answer: "No, the final round of Hack4Innovation will be held in person at VESIT, Chembur, Mumbai. However, other rounds, such as PPT submissions, will be conducted online to ensure flexibility and wider participation."
       },
       {
         question: 'What resources should I bring?',
@@ -71,7 +71,7 @@ const faqData = [
       },
       {
         question: "When is registration open?",
-        answer: "Registration for VES-HACK-IT is live now and closes on March 12, 2026. Don’t miss out on this thrilling event!"
+        answer: "Registration for Hack4Innovation is live now and closes on March 12, 2026. Don’t miss out on this thrilling event!"
       },
     ],
   },
@@ -79,13 +79,13 @@ const faqData = [
     category: 'Tracks & Teams',
     questions: [
       {
-        question: 'What are the tracks for VES-HACK-IT?',
+        question: 'What are the tracks for Hack4Innovation?',
         answer:
           'There are two tracks:\n🔹 Software – Build innovative, sustainable software solutions.\n🔹 Hardware – Create impactful, energy-efficient prototypes ',
       },
       {
         question: "How will tracks and prizes work?",
-        answer: "Participants can choose one track for submission. Each track, Hardware and Software, will have one winner per problem statement. The 1st place winners of both tracks will receive ₹50,000 each, and the 2nd place winners will receive ₹25,000 each, adding up to the ₹1,50,000 prize pool. Check the Prizes section for more details."
+        answer: "Participants can choose one track for submission. Each track, Hardware and Software, will have three winners per problem statement. In each track, the 1st place winners will receive ₹40,000, 2nd place winners will receive ₹20,000, and 3rd place winners will receive ₹15,000, totaling the ₹1,50,000 prize pool. Check the Prizes section for more details."
       },
       {
         question: 'Do I need a team?',

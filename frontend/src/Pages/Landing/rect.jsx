@@ -110,7 +110,7 @@ const HoverRectangle = () => {
           </div>
 
           <h1 className="text-5xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold tracking-wider mb-3 sm:mb-4 text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-600">
-            VES-HACK-IT
+            Hack4Innovation
           </h1>
 
           <div className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl space-x-2 sm:space-x-4 text-green-200 mb-4 sm:mb-6">

@@ -7,7 +7,7 @@ const sponsors = [
   {
     type: "Title ",
     sponsors: [
-      { name: "Rotary Club Of Bombay", logo: Rotory, website: "https://" }
+      { name: "Rotary Club Of Mumbai Ghatkopar West", logo: Rotory, website: "https://" }
     ]
   },
   // {

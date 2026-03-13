@@ -9,16 +9,15 @@ const CommitteeSection = () => {
   const websiteTeam = {
     title: "Technical Team",
     members: [
-      { name: "Aadil Shah , Website Developer", linkedin: "https://www.linkedin.com/in/adilns786/" },
-      { name: "Ayush Bohra , Website Developer", linkedin: "https://www.linkedin.com/in/ayush-bohra7/" },
-      { name: "Parth Takale , Website Developer", linkedin: "https://www.linkedin.com/in/parth-takale-514188264/" },
-      { name: "Dhairyash Jain , Website Developer", linkedin: "https://www.linkedin.com/in/dhairyash-jain-9799831a3/" },
-      { name: "Gaurang Mapuskar , CSI Chairperson", linkedin: "https://www.linkedin.com/in/gaurang-mapuskar/" },
-      { name: "Shashwat Tripathi , ISTE Chairperson", linkedin: "https://www.linkedin.com/in/shashwat-tripathi-1b8972290/" },
-      { name: "Gaurang Rane , IEEE Chairperson", linkedin: "https://www.linkedin.com/in/gaurang-rane-a45335245/" },
-      { name: "Shreyas Kale , ISA Chairperson", linkedin: "https://www.linkedin.com/in/shreyas1503/" },
-      { name: "Pranav Sukali , Technical Coordinator", linkedin: "https://www.linkedin.com/in/pranav-sukali-9269a0249" },
-      { name: "Shivani Nikam , Technical Coordinator", linkedin: "https://www.linkedin.com/in/shivani-nikam-a28b29288" }
+      { name: "Afnan Kazi , Website Developer", linkedin: "https://www.linkedin.com/in/afnan-kazi-13100a28b/" },
+      { name: "chirag Vispute , Website Developer", linkedin: "https://www.linkedin.com/in/chirag-vispute/" },
+      { name: "Rushil Rohra , Website Developer", linkedin: "https://www.linkedin.com/in/rushilrohra/" },
+      { name: "Nikunj Pal , CSI Chairperson", linkedin: "https://www.linkedin.com/in/nikunj-pal-40b54b294/" },
+      { name: "Shriya Jain , ISTE Chairperson", linkedin: "https://www.linkedin.com/in/shriya-jain-423b23259" },
+      { name: "Rakshit Kumar , IEEE Chairperson", linkedin: "https://www.linkedin.com/in/rakshit-kumar-sharma-5b25942ab/" },
+      { name: "Kaustubh Natalkar , ISA Chairperson", linkedin: "https://www.linkedin.com/in/kaustubhvn/" },
+      { name: "Sushant Tulasi , Technical Coordinator", linkedin: "https://www.linkedin.com/in/sushant-tulasi-5ab202313/" },
+      { name: "Shravani Patil , Technical Coordinator", linkedin: "https://www.linkedin.com/in/shravani-patil-163828293/" }
     ]
   };
 

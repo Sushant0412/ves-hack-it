@@ -13,7 +13,7 @@ import Footer from "./Pages/Footer";
 import Sponsors from "./Pages/Sponsor/Sponsor.jsx";
 import ParticleEffect from "./Pages/Tracks/ParticleEffect.jsx";
 import RegistrationBanner from "./Pages/Landing/RegDetail.jsx";
-import CommitteeSection from "./Pages/Teams/Comittee.jsx";
+import CommitteeSection from "./Pages/Teams/Committee.jsx";
 import RoundOneResults from "./Pages/RoundOneResults.jsx";
 
 function App() {

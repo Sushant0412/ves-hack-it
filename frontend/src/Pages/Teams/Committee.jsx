@@ -39,7 +39,7 @@ const CommitteeSection = () => {
       title: "PATRONS",
       members: [
         "Shri. B. L. Boolani, Managing Trustee, VES", "Shri. Suresh Malkani, President, VES",
-        "Shri. Rajesh Gehani, Secretory, VES", "Shri. Prakash Lulla, Treasurer, VES",
+        "Shri. Rajesh Gehani, Secretary, VES", "Shri. Prakash Lulla, Treasurer, VES",
         "Shri. Bharat Ajwani, Member, VES", "Shri. Vijay Talreja, Member, VES",
         "Shri. Deepak Nehlani, Member, VES"
       ]

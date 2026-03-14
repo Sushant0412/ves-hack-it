@@ -31,6 +31,13 @@ const teams = [
     imgSrc: "/Teams/ISA.png",
     link: "https://www.isavesit.org.in/", // Add the team's website link
   },
+  {
+    id: 5,
+    name: "VESIT Renaissance Cell",
+    shortName: "VRC",
+    imgSrc: "/Teams/VRC.png",
+    link: "https://vesit.ves.ac.in/student_corner/vrc", // Add the team's website link
+  },
 ];
 
 const TeamsBanner = () => {

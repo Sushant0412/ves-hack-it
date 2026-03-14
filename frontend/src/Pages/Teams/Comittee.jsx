@@ -10,13 +10,13 @@ const CommitteeSection = () => {
     title: "Technical Team",
     members: [
       { name: "Afnan Kazi , Website Developer", linkedin: "https://www.linkedin.com/in/afnan-kazi-13100a28b/" },
-      { name: "chirag Vispute , Website Developer", linkedin: "https://www.linkedin.com/in/chirag-vispute/" },
+      { name: "Chirag Vispute , Website Developer", linkedin: "https://www.linkedin.com/in/chirag-vispute/" },
       { name: "Rushil Rohra , Website Developer", linkedin: "https://www.linkedin.com/in/rushilrohra/" },
       { name: "Nikunj Pal , CSI Chairperson", linkedin: "https://www.linkedin.com/in/nikunj-pal-40b54b294/" },
       { name: "Shriya Jain , ISTE Chairperson", linkedin: "https://www.linkedin.com/in/shriya-jain-423b23259" },
       { name: "Rakshit Kumar , IEEE Chairperson", linkedin: "https://www.linkedin.com/in/rakshit-kumar-sharma-5b25942ab/" },
       { name: "Kaustubh Natalkar , ISA Chairperson", linkedin: "https://www.linkedin.com/in/kaustubhvn/" },
-      { name: "Sushant Tulasi , Technical Coordinator", linkedin: "https://www.linkedin.com/in/sushant-tulasi-5ab202313/" },
+      { name: "Sushant Tulasi , ISTE Chief Technical Officer", linkedin: "https://www.linkedin.com/in/sushant-tulasi-5ab202313/" },
       { name: "Shravani Patil , Technical Coordinator", linkedin: "https://www.linkedin.com/in/shravani-patil-163828293/" }
     ]
   };

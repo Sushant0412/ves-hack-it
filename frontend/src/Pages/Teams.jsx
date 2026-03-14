@@ -35,7 +35,7 @@ const teams = [
     id: 5,
     name: "VESIT Renaissance Cell",
     shortName: "VRC",
-    imgSrc: "/Teams/VRC.png",
+    imgSrc: "/Teams/VRC.svg",
     link: "https://vesit.ves.ac.in/student_corner/vrc", // Add the team's website link
   },
 ];
@@ -58,7 +58,7 @@ const TeamsBanner = () => {
         >
           Our Team
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 justify-items-center">
+        <div className="flex flex-wrap justify-center gap-12">
           {teams.map((team, index) => (
             <motion.div
               key={team.id}

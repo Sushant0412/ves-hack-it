@@ -3,25 +3,68 @@
 import { useState } from "react"
 
 const softwareTeams = {
-  "SW-01": ["Syntax Squad", "Codechamps", "The Code of Duty", "Bournvita Smugglers", "Tech Simp"],
-  "SW-02": ["Team INSPIRE", "Techtectians", "Neural_Networkers", "Team Rocket", "ErrorOverflow"],
-  "SW-03": ["Nomads", "GitWinIt", "Terminators", "MangoDB", "Hack-oonaMatata"],
-  "SW-04": ["Bit Please", "Coding Gurus", "Maas", "Chaos coders", "BinaryBrains"],
-  "SW-05": ["Stranger Strings", "DataDynamos", "CodeCare", "Init.io", "Null Pointers"],
-  "SW-06": ["Hackie Chan", "TechWizard", "Nagshakti", "Reverse_CowBoys", "runtimeTerror"],
+  "SW-01": [
+    "Byte Alchemy",
+    "Code Monk",
+    "AltX_OverDrive",
+    "Runtime Terror",
+    "SentriX",
+    "Green Tech",
+    "Hackonauts",
+    "CodeBreakers",
+    "InnovateX",
+    "Team_Technexis"
+  ],
+  "SW-02": [
+    "SayKnowMore",
+    "SurveyCorps",
+    "Code Titans",
+    "Code Watchers",
+    "DAWNIX",
+    "GDuo",
+    "JSHS",
+    "Gradient Descent",
+    "SYSCODE",
+    "TeenTigadas"
+  ],
+  "SW-03": [
+    "Chaat Masala",
+    "Scam Shield",
+    "Code & Chaos",
+    "Tandoori Techies",
+    "InnoVerse",
+    "Sentinel",
+    "Developers",
+    "ARKAA!",
+    "Hackoverflow",
+    "Akatsuki"
+  ]
 }
 
 const hardwareTeams = {
-  "HW-01": ["VisionCreator", "Core Creators "],
-  "HW-02": ["Kurama", "Coded Chaos", "Eco-tronics"],
-  "HW-03": ["Healthtronics", "AgriDrip", "alt F4"],
-  "HW-04": ["Team Elexyz"],
-  "HW-05": ["StarLITE"],
-  "HW-07": ["Chip Wizards", "Synergy Squad"],
-  "HW-08": ["ElectroWizards"],
-  "HW-09": ["Wired_Wizard"],
-  "HW-11": ["Project vengeance", "Fabricators"],
-  "HW-12": ["Alt_24"],
+  "HW-01": [
+    "Innovation Insurgents"
+  ],
+  "HW-02": [
+    "Team Rocket",
+    "MedByte",
+    "Runtime Error",
+    "IoTians",
+    "CGPAglus",
+    "ElectroBoom"
+  ],
+  "HW-03": [
+    "Team Vanguard",
+    "DeeDos",
+    "Hacker Logs",
+    "HACK ERROR 404"
+  ],
+  "HW-04": [
+    "Xspark",
+    "Hackhive",
+    "karare kurkure",
+    "ShockSquad"
+  ]
 }
 
 const RoundOneResults = () => {
@@ -55,7 +98,7 @@ const RoundOneResults = () => {
           Software
         </button>
       </div>
-      <div className={`grid grid-cols-2 mx-5 md:grid-cols-3 xl:grid-cols-${selectedCategory=="Hardware"?5:6} md:mx-auto gap-6`}>
+      <div className={`grid grid-cols-1 sm:grid-cols-2 mx-5 md:mx-auto gap-6 ${selectedCategory === "Hardware" ? "lg:grid-cols-4" : "lg:grid-cols-3"}`}>
         {Object.entries(selectedCategory === "Hardware" ? hardwareTeams : softwareTeams).map(([ps, teams]) => (
           <div
             key={ps}

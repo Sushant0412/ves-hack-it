@@ -45,6 +45,7 @@ const softwareTeams = {
 const hardwareTeams = {
   "HW-02": [
     { team: "Team Rocket", lead: "Yash Jadhav" },
+    { team: "MedByte", lead: "Pratyush Tripathi"},
     { team: "Runtime Error", lead: "Vansh Lalwani" },
     { team: "IoTians", lead: "Sakib Khan" },
     { team: "CGPAglus", lead: "Ishaan Vaidya" },

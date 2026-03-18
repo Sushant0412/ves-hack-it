@@ -97,7 +97,7 @@ const RoundOneResults = () => {
           Software
         </button>
       </div>
-      <div className={`grid grid-cols-1 sm:grid-cols-2 mx-5 md:mx-auto gap-6 ${selectedCategory === "Hardware" ? "lg:grid-cols-4" : "lg:grid-cols-3"}`}>
+      <div className={`grid grid-cols-1 sm:grid-cols-2 mx-5 md:mx-auto gap-6 lg:grid-cols-3`}>
         {Object.entries(selectedCategory === "Hardware" ? hardwareTeams : softwareTeams).map(([ps, teams]) => (
           <div
             key={ps}

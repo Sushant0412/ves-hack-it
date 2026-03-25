@@ -106,6 +106,60 @@ const Timeline = () => {
       //   title: "𝟭𝟱-𝟭𝟲𝘁𝗵 𝗙𝗲𝗯: Final Hackathon Round.",
       // },
     ],
+    "On Day Schedule": [
+      {
+        date: "28th March 2026, 8:30 AM to 9:00 AM",
+        title: "Reporting & Registration",
+      },
+      {
+        date: "28th March 2026, 9:00 AM to 9:30 AM",
+        title: "Table allotment and set up",
+      },
+      {
+        date: "28th March 2026, 9:30 AM",
+        title: "Inauguration in library",
+      },
+      {
+        date: "28th March 2026, 9:45 AM",
+        title: "Coding starts",
+      },
+      {
+        date: "28th March 2026, 1:00 PM - 2:00 PM",
+        title: "Lunch",
+      },
+      {
+        date: "28th March 2026, 3:00 PM - 5:00 PM",
+        title: "First judging round",
+      },
+      {
+        date: "28th March 2026, 5:30 PM",
+        title: "Tea and snack break",
+      },
+      {
+        date: "28th March 2026, 8:30 PM - 9:30 PM",
+        title: "Dinner",
+      },
+      {
+        date: "28th March 2026, 12:00 AM - 1:00 AM",
+        title: "Music",
+      },
+      {
+        date: "29th March 2026, 7:00 AM",
+        title: "Yoga",
+      },
+      {
+        date: "29th March 2026, 11:00 AM to 1:00 PM",
+        title: "Second Judging Round",
+      },
+      {
+        date: "29th March 2026, 3:00 PM to 5:00 PM",
+        title: "Power Judging (only for top 10 teams)",
+      },
+      {
+        date: "29th March 2026, 6:00 PM",
+        title: "Valedictory Function",
+      }
+    ],
   };
 
   return (
@@ -139,6 +193,14 @@ const Timeline = () => {
           onClick={() => setSelectedCategory("Software")}
         >
           Software
+        </button>
+        <button
+          className={`px-6 py-2 font-medium text-white rounded-lg transition-all duration-300 ${
+            selectedCategory === "On Day Schedule" ? "bg-green-700" : "bg-gray-700"
+          }`}
+          onClick={() => setSelectedCategory("On Day Schedule")}
+        >
+          On Day Schedule
         </button>
       </div>
 

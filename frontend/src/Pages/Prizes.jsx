@@ -7,19 +7,29 @@ const softwarePrizeData = [
     altText: "Winner Trophy",
     rank: "gold",
     details: [{ text: "Rs.25,000" }],
+    title: "Software Winner"
   },
   {
     imgSrc: "https://img.icons8.com/emoji/96/000000/trophy-emoji.png",
     altText: "Winner Trophy",
     rank: "gold",
     details: [{ text: "Rs.25,000" }],
+    title: "Software Winner"
   },
   {
     imgSrc: "https://img.icons8.com/emoji/96/000000/trophy-emoji.png",
     altText: "Winner Trophy",
     rank: "gold",
     details: [{ text: "Rs.25,000" }],
+    title: "Software Winner"
   },
+  {
+    imgSrc: "https://img.icons8.com/emoji/96/000000/trophy-emoji.png",
+    altText: "Special Winner Trophy",
+    rank: "silver",
+    details: [{ text: "Rs.25,000" }],
+    title: "Judges' Special Winner"
+  }
 ];
 const hardwarePrizeData = [
   {
@@ -27,29 +37,39 @@ const hardwarePrizeData = [
     altText: "Winner Trophy",
     rank: "gold",
     details: [{ text: "Rs.25,000" }],
+    title: "Hardware Winner"
   },
   {
     imgSrc: "https://img.icons8.com/emoji/96/000000/trophy-emoji.png",
     altText: "Winner Trophy",
     rank: "gold",
     details: [{ text: "Rs.25,000" }],
+    title: "Hardware Winner"
   },
   {
     imgSrc: "https://img.icons8.com/emoji/96/000000/trophy-emoji.png",
     altText: "Winner Trophy",
     rank: "gold",
     details: [{ text: "Rs.25,000" }],
+    title: "Hardware Winner"
   },
+  {
+    imgSrc: "https://img.icons8.com/emoji/96/000000/trophy-emoji.png",
+    altText: "Special Winner Trophy",
+    rank: "silver",
+    details: [{ text: "Rs.25,000" }],
+    title: "Judges' Special Winner"
+  }
 ];
 
-const PrizeCard = ({ imgSrc, altText, details, additionalDetails, rank }) => {
+const PrizeCard = ({ imgSrc, altText, details, rank, title }) => {
   const [flipped, setFlipped] = useState(false); // State for tracking the card flip
   const cardRef = useRef(null);
   const handleOnClick = () => {
     setFlipped(!flipped);
     cardRef.current.style.transform = `rotateY(${
       flipped ? "180deg" : "0deg"
-    }deg) rotateY(${rotateY}deg)`;
+    }deg) rotateY(${flipped ? 180 : 0}deg)`;
   };
   const handleMouseMove = (e) => {
     const card = cardRef.current;
@@ -79,7 +99,7 @@ const PrizeCard = ({ imgSrc, altText, details, additionalDetails, rank }) => {
 
   return (
     <div
-      className={`relative shadow-xl shadow-[#ffffff22] flex-none lg:flex-1 glow-${rank} gap-x-5 bg-[#ffffff22] backdrop-blur-sm p-6 flex flex-col items-center justify-between font-quicksand rounded-2xl  border  border-stone-600 transform-gpu max-w-sm mb-12 transition-transform duration-700 ${
+      className={`relative shadow-xl shadow-[#ffffff22] flex-none lg:flex-1 glow-${rank} gap-x-5 bg-[#ffffff22] backdrop-blur-sm p-6 flex flex-col items-center justify-between font-quicksand rounded-2xl  border  border-stone-600 transform-gpu w-[250px] sm:w-[280px] mb-12 transition-transform duration-700 ${
         flipped ? "rotate-y-180" : ""
       }`}
       ref={cardRef}
@@ -94,25 +114,24 @@ const PrizeCard = ({ imgSrc, altText, details, additionalDetails, rank }) => {
       <div className="absolute top-0 w-full h-[176px] rounded-b-[120px] bg-gradient-to-t from-[#ffffff44] to-transparent rounded-t-xl shadow-xl"></div>
       {/* Bottom Rounded Shape */}
       {/* <div className="absolute top-12 w-full h-28 bg-gray-700 rounded-b-full"></div> */}
-      <div className="z-10 flex flex-col items-center">
+      <div className="z-10 flex flex-col items-center w-full">
+        <h4 className={`text-xl font-bold text-center mb-4 ${rank === "silver" ? "text-amber-200" : "text-white"}`}>{title}</h4>
         <img
           src={imgSrc}
           alt={altText}
-          className="w-32 h-32 mb-6"
+          className="w-24 h-24 mb-6"
           loading="lazy"
-          width="64"
-          height="64"
         />
         {/* Front side content */}
         <div
-          className={`text-white text-sm space-y-2 pt-10 ${
+          className={`text-white text-sm space-y-2 pt-6 flex flex-col items-center ${
             flipped ? "hidden" : ""
           }`}
         >
           {details.map((detail, index) => (
             <p
-              className={`font-medium text-4xl ${
-                rank === "gold" ? "text-white" : rank === "silver" ? "text-gray-400" : "text-white"
+              className={`font-medium text-3xl ${
+                rank === "gold" ? "text-white" : rank === "silver" ? "text-gray-200" : "text-white"
               }`}
               style={{
                 textShadow:
@@ -153,13 +172,13 @@ const Prizes = () => {
             textShadow: "-5px 0 12px gold, 5px 0 12px red",
           }}
         >
-          Rs.1,50,000!
+          Rs.2,00,000!
         </span>
       </h3>
       <p className="text-3xl text-white font-extrabold text-center mt-4 mb-8">
         Software Track
       </p>
-      <div className="flex flex-wrap gap-x-14 justify-center min-w-full flex-1 flex-grow px-0 max-w-6xl">
+      <div className="flex flex-wrap gap-8 justify-center min-w-full flex-1 flex-grow px-4 max-w-7xl mx-auto">
         {softwarePrizeData.map((prize, index) => (
           <PrizeCard
             key={index}
@@ -167,13 +186,14 @@ const Prizes = () => {
             altText={prize.altText}
             details={prize.details}
             rank={prize.rank}
+            title={prize.title}
           />
         ))}
       </div>
       <p className="text-3xl text-white font-extrabold text-center mt-8 mb-8">
         Hardware Track
       </p>
-      <div className="flex flex-wrap gap-x-14  justify-center min-w-full flex-1 flex-grow  px-0 max-w-6xl ">
+      <div className="flex flex-wrap gap-8 justify-center min-w-full flex-1 flex-grow px-4 max-w-7xl mx-auto">
         {hardwarePrizeData.map((prize, index) => (
           <PrizeCard
             key={index}
@@ -181,6 +201,7 @@ const Prizes = () => {
             altText={prize.altText}
             details={prize.details}
             rank={prize.rank}
+            title={prize.title}
           />
         ))}
       </div>

@@ -1,68 +1,33 @@
-"use client"
-
 import { useState } from "react"
+import Confetti from "react-confetti"
 
 const softwareTeams = {
-  "SW-01": [
-    { team: "Byte Alchemy", lead: "Shubhada Deshmukh" },
-    { team: "Code Monk", lead: "Soham Patil" },
-    { team: "AltX_OverDrive", lead: "Nachiket Kale" },
-    { team: "Runtime Terror", lead: "Saurabh Gangurde" },
-    { team: "SentriX", lead: "Dhruti Mehta" },
-    { team: "Green Tech", lead: "Rohit Bhagwat" },
-    { team: "Hackonauts", lead: "Vedant Gawali" },
-    { team: "CodeBreakers", lead: "Jidnesh Patil" },
-    { team: "InnovateX", lead: "Asmi Katke" },
-    { team: "Team_Technexis", lead: "Arnav Shirwadkar" }
+  "Winner (SW1)": [
+    { team: "Team_Technexis", lead: "Arnav Shirwadkar", college: "Lokmanya Tilak COE" }
   ],
-  "SW-02": [
-    { team: "SayKnowMore", lead: "Chaitanya Ananda Medidar" },
-    { team: "SurveyCorps", lead: "Gaurav More" },
-    { team: "Code Titans", lead: "Suyash Patil" },
-    { team: "Code Watchers", lead: "Saumitra Gurav" },
-    { team: "DAWNIX", lead: "Suyash Sonawane" },
-    { team: "GDuo", lead: "Rushil Patil" },
-    { team: "JSHS", lead: "Hemant Jawale" },
-    { team: "Gradient Descent", lead: "Dhruv Shetty" },
-    { team: "SYSCODE", lead: "Sakshi Bhansali" },
-    { team: "TeenTigadas", lead: "Meet Phulwani" }
+  "Winner (SW2)": [
+    { team: "SayKnowMore", lead: "Chaitanya Medidar", college: "VESIT" }
   ],
-  "SW-03": [
-    { team: "Chaat Masala", lead: "Amarnath" },
-    { team: "Scam Shield", lead: "Yogaant Naidu" },
-    { team: "Code & Chaos", lead: "Tanishka Donde" },
-    { team: "Tandoori Techies", lead: "Purjeet Shahu" },
-    { team: "InnoVerse", lead: "Vedant Shelar" },
-    { team: "Sentinel", lead: "Krish Pinto" },
-    { team: "Developers", lead: "Drishti Gupta" },
-    { team: "ARKAA!", lead: "Allan Fernandes" },
-    { team: "Hackoverflow", lead: "Soham Chaudhari" },
-    { team: "Akatsuki", lead: "Kushith Shetty" }
+  "Winner (SW3)": [
+    { team: "Sentinel", lead: "Krish Pinto", college: "Fr. C. Rodrigues Institute of Technology" }
+  ],
+  "Judges' Special Winner": [
+    { team: "Code & Chaos", lead: "Tanishka Donde", college: "Vishwakarma Institute of Technology, Pune" }
   ]
 }
 
-
 const hardwareTeams = {
-  "HW-02": [
-    { team: "Team Rocket", lead: "Yash Jadhav" },
-    { team: "MedByte", lead: "Pratyush Tripathi"},
-    { team: "Runtime Error", lead: "Vansh Lalwani" },
-    { team: "IoTians", lead: "Sakib Khan" },
-    { team: "CGPAglus", lead: "Ishaan Vaidya" },
-    { team: "ElectroBoom", lead: "Kalpesh Kisan Naik" }
+  "Winner (HW2)": [
+    { team: "MedByte", lead: "Pratyush Tripathi", college: "Veermata Jijabai Technological Institute" }
   ],
-  "HW-03": [
-    { team: "Team Vanguard", lead: "Faizan Rabbani" },
-    { team: "DeeDos", lead: "Samarth Kale" },
-    { team: "Hacker Logs", lead: "Umed Indulkar" },
-    { team: "HACK ERROR 404", lead: "Aditya Basantani" },
-    { team: "BeRRY", lead: "Reyansh Bhavesh Sakariya" }
+  "Winner (HW3)": [
+    { team: "DeeDos", lead: "Samarth Kale", college: "Fr. C. Rodrigues Institute of Technology" }
   ],
-  "HW-04": [
-    { team: "Xspark", lead: "Jui Adke" },
-    { team: "Hackhive", lead: "Apoorva Ghyare" },
-    { team: "karare kurkure", lead: "Raj Shukla" },
-    { team: "ShockSquad", lead: "Shubham Kandalgaonkar" }
+  "Winner (HW4)": [
+    { team: "Xspark", lead: "Jui Adke", college: "VESIT" }
+  ],
+  "Judges' Special Winner": [
+    { team: "Karare Kurkure", lead: "Raj Shukla", college: "VESIT" }
   ]
 }
 
@@ -70,19 +35,28 @@ const RoundOneResults = () => {
   const [selectedCategory, setSelectedCategory] = useState("Software")
 
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col relative w-full overflow-hidden min-h-[60vh] py-10">
+      <div className="absolute inset-0 pointer-events-none z-50">
+        <Confetti 
+          width={typeof window !== 'undefined' ? window.innerWidth : 1200}
+          height={typeof window !== 'undefined' ? 2000 : 1000}
+          recycle={false}
+          numberOfPieces={500}
+          gravity={0.15}
+        />
+      </div>
       <h2
-        className="text-7xl font-black workbench-font text-center text-white mb-10"
+        className="text-7xl font-black workbench-font text-center text-white mb-10 z-10"
         style={{
           textShadow: "-5px 0 12px green, 5px 0 12px blue",
         }}
       >
-        Round 1 Results
+        Winners
       </h2>
-      <div className="mb-8 flex flex-wrap justify-center gap-4 text-xl">
+      <div className="mb-8 flex flex-wrap justify-center gap-4 text-xl z-10">
         <button
           className={`px-6 py-2 font-medium text-white rounded-lg transition-all duration-300 ${
-            selectedCategory === "Hardware" ? "bg-green-700" : "bg-gray-700"
+            selectedCategory === "Hardware" ? "bg-green-700" : "bg-gray-700 hover:bg-gray-600"
           }`}
           onClick={() => setSelectedCategory("Hardware")}
         >
@@ -90,27 +64,30 @@ const RoundOneResults = () => {
         </button>
         <button
           className={`px-6 py-2 font-medium text-white rounded-lg transition-all duration-300 ${
-            selectedCategory === "Software" ? "bg-green-700" : "bg-gray-700"
+            selectedCategory === "Software" ? "bg-green-700" : "bg-gray-700 hover:bg-gray-600"
           }`}
           onClick={() => setSelectedCategory("Software")}
         >
           Software
         </button>
       </div>
-      <div className={`grid grid-cols-1 sm:grid-cols-2 mx-5 md:mx-auto gap-6 lg:grid-cols-3`}>
+      <div className={`grid grid-cols-1 sm:grid-cols-2 mx-5 md:mx-auto gap-6 lg:grid-cols-4 z-10 max-w-7xl`}>
         {Object.entries(selectedCategory === "Hardware" ? hardwareTeams : softwareTeams).map(([ps, teams]) => (
           <div
             key={ps}
             className={`${
               selectedCategory === "Hardware" ? "bg-orange-800" : "bg-sky-900"
-            } backdrop-blur-sm rounded-lg shadow-lg min-h-48 shadow-gray-900/50 border-gray-700 border p-6 w-full transition-all duration-300 hover:shadow-xl hover:scale-102`}
+            } ${ps === "Judges' Special Winner" ? "border-amber-400 border-2" : "border-gray-700 border"} backdrop-blur-sm rounded-lg shadow-lg min-h-48 shadow-gray-900/50 p-6 w-full transition-all duration-300 hover:shadow-xl hover:scale-105 flex flex-col items-center text-center`}
           >
-            <h2 className="text-3xl font-bold text-white mb-4 border-b border-white/20 pb-2">{ps}</h2>
-            <ul className="space-y-2">
+            <h2 className={`text-2xl font-bold mb-4 border-b border-white/20 pb-2 w-full ${ps.includes("Judges'") ? "text-amber-400" : "text-white"}`}>
+              {ps}
+            </h2>
+            <ul className="space-y-4 flex-1 flex flex-col justify-center">
               {teams.map((item, key) => (
-                <li key={key} className="text-white transition-all duration-200 mb-3">
-                  <div className="text-xl font-semibold tracking-wide">{item.team}</div>
-                  <div className="text-sm text-gray-300">Lead: {item.lead}</div>
+                <li key={key} className="text-white transition-all duration-200">
+                  <div className="text-2xl font-black tracking-wide mb-2 text-green-300 drop-shadow-md">{item.team}</div>
+                  <div className="text-md font-semibold text-gray-100 mb-1">Lead: {item.lead}</div>
+                  <div className="text-sm text-gray-300 italic">{item.college}</div>
                 </li>
               ))}
             </ul>
@@ -122,4 +99,5 @@ const RoundOneResults = () => {
 }
 
 export default RoundOneResults
+
 
